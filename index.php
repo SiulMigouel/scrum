@@ -12,7 +12,7 @@
 <body>
         <div id="apprendre">
             <div class="img">
-            <img src="./apprendre.svg" alt="">
+            <img src="./images/apprendre.svg" alt="Image apprendre">
             </div>
             <div class="container">
                 <div class="contenue">
