@@ -14,16 +14,11 @@
         <span id="indicator-3" class="indicator"></span>
         <span id="indicator-4" class="indicator"></span>
         <span id="indicator-5" class="indicator"></span>
-        <span id="indicator-6" class="indicator"></span>
-        <span id="indicator-7" class="indicator"></span>
-        <span id="indicator-8" class="indicator"></span>
-        <span id="indicator-9" class="indicator"></span>
-        <span id="indicator-10" class="indicator"></span>
     </div>
 
     <div id="feedback" class="hidden">Votre réponse est...</div>
 
-    <!-- Questions 1 à 5 -->
+    <!-- Questions 1 à 10 -->
     <!-- Copiez-collez le modèle ci-dessous pour les questions -->
     <section id="question-1" class="question">
         <h2>Question 1</h2>
@@ -87,77 +82,10 @@
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)"> Une boucle</label><br>
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)"> Une session</label>
         </form>
-        <button class="prev-button" onclick="goBack(4)">Précédent</button>
-        <button id="next-5" class="next-button" disabled onclick="validateAnswer(5, 1)">Suivant</button>
-    </section>
-    <!-------------------------------------------------------------------->
-    <section id="question-6" class="question hidden">
-        <h2>Question 6</h2>
-        <p>Comment s'appelle le cycle de travail dans Scrum ?</p>
-        <form id="form-6">
-            <label><input type="radio" name="q6" value="0" onclick="enableNext(6)"> Une itération</label><br>
-            <label><input type="radio" name="q6" value="1" onclick="enableNext(6)"> Un sprint</label><br>
-            <label><input type="radio" name="q6" value="0" onclick="enableNext(6)"> Une boucle</label><br>
-            <label><input type="radio" name="q6" value="0" onclick="enableNext(6)"> Une session</label>
-        </form>
-        <button class="prev-button" onclick="goBack(5)">Précédent</button>
-        <button id="next-6" class="next-button" disabled onclick="validateAnswer(6, 1)">Suivant</button>
-    </section>
-    <!-------------------------------------------------------------------->
-    <section id="question-7" class="question hidden">
-        <h2>Question 7</h2>
-        <p>Comment s'appelle le cycle de travail dans Scrum ?</p>
-        <form id="form-7">
-            <label><input type="radio" name="q7" value="0" onclick="enableNext(7)"> Une itération</label><br>
-            <label><input type="radio" name="q7" value="1" onclick="enableNext(7)"> Un sprint</label><br>
-            <label><input type="radio" name="q7" value="0" onclick="enableNext(7)"> Une boucle</label><br>
-            <label><input type="radio" name="q7" value="0" onclick="enableNext(7)"> Une session</label>
-        </form>
-        <button class="prev-button" onclick="goBack(6)">Précédent</button>
-        <button id="next-7" class="next-button" disabled onclick="validateAnswer(7, 1)">Suivant</button>
-    </section>
-    <!-------------------------------------------------------------------->
-    <section id="question-8" class="question hidden">
-        <h2>Question 8</h2>
-        <p>Comment s'appelle le cycle de travail dans Scrum ?</p>
-        <form id="form-8">
-            <label><input type="radio" name="q8" value="0" onclick="enableNext(8)"> Une itération</label><br>
-            <label><input type="radio" name="q8" value="1" onclick="enableNext(8)"> Un sprint</label><br>
-            <label><input type="radio" name="q8" value="0" onclick="enableNext(8)"> Une boucle</label><br>
-            <label><input type="radio" name="q8" value="0" onclick="enableNext(8)"> Une session</label>
-        </form>
-        <button class="prev-button" onclick="goBack(7)">Précédent</button>
-        <button id="next-8" class="next-button" disabled onclick="validateAnswer(8, 1)">Suivant</button>
-    </section>
-    <!-------------------------------------------------------------------->
-    <section id="question-9" class="question hidden">
-        <h2>Question 9</h2>
-        <p>Comment s'appelle le cycle de travail dans Scrum ?</p>
-        <form id="form-9">
-            <label><input type="radio" name="q9" value="0" onclick="enableNext(9)"> Une itération</label><br>
-            <label><input type="radio" name="q9" value="1" onclick="enableNext(9)"> Un sprint</label><br>
-            <label><input type="radio" name="q9" value="0" onclick="enableNext(9)"> Une boucle</label><br>
-            <label><input type="radio" name="q9" value="0" onclick="enableNext(9)"> Une session</label>
-        </form>
-        <button class="prev-button" onclick="goBack(8)">Précédent</button>
-        <button id="next-9" class="next-button" disabled onclick="validateAnswer(9, 1)">Suivant</button>
-    </section>
-
-    <!-- Continuez à ajouter les autres questions jusqu'à 10 -->
-    <!-- Remplacez les textes, numéros et bonnes réponses pour chaque question -->
-
-    <section id="question-10" class="question hidden">
-        <h2>Question 10</h2>
-        <p>Question finale : Exemple de question 10 ?</p>
-        <form id="form-10">
-            <label><input type="radio" name="q10" value="1" onclick="enableNext(10)"> Bonne réponse</label><br>
-            <label><input type="radio" name="q10" value="0" onclick="enableNext(10)"> Mauvaise réponse 1</label><br>
-            <label><input type="radio" name="q10" value="0" onclick="enableNext(10)"> Mauvaise réponse 2</label><br>
-            <label><input type="radio" name="q10" value="0" onclick="enableNext(10)"> Mauvaise réponse 3</label>
-        </form>
         <button class="prev-button" onclick="goBack(9)">Précédent</button>
         <button id="result-button" class="next-button" disabled onclick="showResult()">Résultat</button>
     </section>
+    <!-------------------------------------------------------------------->
 
     <section id="result-section" class="hidden">
         <h2>Résultat Final</h2>
@@ -165,6 +93,6 @@
         <button><h3>Retour à l'accueil</h3></button>
     </section>
 
-    <script src="qcm_entrainement.js"></script>
+    <script src="qcm_cours.js"></script>
 </body>
 </html>
