@@ -68,7 +68,7 @@
     <div class="img">
         <img src="./images/cours9.svg" alt="schéma méthode agile" class="clickable-image">
               <div class="boutons">
-                <a href="#">Prêt pour le test final !!!</a>
+                <a href="qcm_eval.php">Prêt pour le test final !!!</a>
             </div>
         </div>
     
