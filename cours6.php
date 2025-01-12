@@ -41,9 +41,6 @@
             </div>
         </div>
     </div>
-    <div class="lightbox" id="lightbox">
-        <img src="" alt="schéma planification" class="lightbox-image">
-    </div>
 </section>
 
 <?php include_once 'footer.html'; ?>
