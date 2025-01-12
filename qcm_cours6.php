@@ -81,7 +81,7 @@
         <form id="form-5">
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">En analysant les contraintes budgétaires</label><br>
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">En consultant le client directement"</label><br>
-            <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">En ajustant les priorités du Product Backlog</label><br>
+            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">En ajustant les priorités du Product Backlog</label><br>
             <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">En se basant sur les estimations des points d’effort</label>
         </form>
         <button class="prev-button" onclick="goBack(9)">Précédent</button>
