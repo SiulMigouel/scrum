@@ -51,7 +51,7 @@
                 video.
               </video>
               <div class="boutons">
-                <a href="#">Me tester sur ce que je viens d'apprendre</a>
+                <a href="./qcm_cours1.php">Me tester sur ce que je viens d'apprendre</a>
                 <a href="./cours2.php">Je continue le cours</a>
             </div>
         </div>
