@@ -44,3 +44,6 @@
         </div>
 </body>
 </html>
+
+<?php include_once 'footer.html'; ?>
+
