@@ -36,7 +36,7 @@
         <div class="img">
             <img src="./images/cours6.svg" alt="schéma planification" class="clickable-image">
               <div class="boutons">
-                <a href="./qcm_cours5">Me tester sur ce que je viens d'apprendre</a>
+                <a href="./qcm_cours6">Me tester sur ce que je viens d'apprendre</a>
                 <a href="./cours7.php">Je continue le cours</a>
             </div>
         </div>
