@@ -21,7 +21,7 @@
         align-items: center; /* Centre les enfants verticalement */
         justify-content: space-between; /* Espace entre les parties (gauche, centre, droite) */
         background-color: white;
-        padding: 10px 20px;
+        padding: 10px 0px;
         box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.5);
         position: sticky;
         top: 0;
