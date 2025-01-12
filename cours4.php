@@ -113,7 +113,7 @@
         </div>
     </div>
     <div class="boutons">
-        <a href="#">Me tester sur ce que je viens d'apprendre</a>
+        <a href="./qcm_cours4">Me tester sur ce que je viens d'apprendre</a>
         <a href="./cours5.php">Je continue le cours</a>
     </div>
     <div class="lightbox" id="lightbox">
