@@ -14,7 +14,7 @@
   }
   
   /* Pop-up */
-  .popup {
+  .popup_co {
     display: none;
     position: fixed;
     z-index: 1000;
@@ -25,7 +25,7 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
   
-  .popup-content {
+  .popup_co .popup-content {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -35,7 +35,7 @@
     margin: 10% auto;
   }
   
-  .popup-content h2 {
+  .popup_co .popup-content h2 {
     text-align: center;
   }
   

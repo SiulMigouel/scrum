@@ -7,12 +7,11 @@
   <title>Liste des cours</title>
 </head>
 <body>
-  <!-- Bouton pour ouvrir le pop-up -->
 
   <!-- Pop-up -->
-  <div id="popup" class="popup">
+  <div id="popup_co" class="popup_co">
     <div class="popup-content">
-      <span class="close-button" onclick="closePopup()">&times;</span>
+      <span class="close-button" onclick="closePopupCo()">&times;</span>
       <h2>Liste des cours</h2>
       <ul class="course-list">
         <li>
@@ -45,22 +44,22 @@
   </div>
 
   <script>
-    function showPopup() {
-      document.getElementById("popup").style.display = "block";
+    function showPopupCo() {
+      document.getElementById("popup_co").style.display = "block";
       document.body.classList.add('popup-open');
     }
 
-    function closePopup() {
-      document.getElementById("popup").style.display = "none";
+    function closePopupCo() {
+      document.getElementById("popup_co").style.display = "none";
       document.body.classList.remove('popup-open');
     }
 
     // Fermer le pop-up en cliquant en dehors du contenu
     document.addEventListener('DOMContentLoaded', function () {
-      const popup = document.getElementById("popup");
+      const popup = document.getElementById("popup_co");
       popup.addEventListener('click', function (event) {
         if (event.target === popup) {
-          closePopup();
+          closePopupCo();
         }
       });
     });

@@ -1,5 +1,5 @@
  /* Pop-up */
-        .popup {
+        .popup_general {
             display: none;
             position: fixed;
             z-index: 1000;
@@ -10,7 +10,7 @@
             background-color: rgba(0, 0, 0, 0.6);
         }
 
-        .popup-content {
+        .popup_general .popup-content {
             background-color: #f3f3f3;
             color: black;
             border-radius: 8px;
@@ -25,7 +25,7 @@
             align-items: center;
         }
 
-        .popup-content h2 {
+        .popup_general .popup-content h2 {
             text-align: center;
         }
 

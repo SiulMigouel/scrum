@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="popup_eval.css">
+    <link rel="stylesheet" href="popup.css">
     <title>Document</title>
 </head>
 <body>
-    <!-- Bouton pour afficher le pop-up -->
-    <button onclick="showPopup()">S'évaluer</button>
-
     <!-- Pop-up -->
-    <div id="popup" class="popup">
+    <div id="popup_general" class="popup_general">
         <div class="popup-content">
             <span class="close-button" onclick="closePopup()">&times;</span>
             <h2>Consignes</h2>
@@ -31,27 +28,25 @@
     </div>
 
     <script>
-        function showPopup() {
-            // Affiche le pop-up
-            document.getElementById("popup").style.display = "block";
-            document.body.classList.add('popup-open');
-        }
+    function showPopup() {
+      document.getElementById("popup_general").style.display = "block";
+      document.body.classList.add('popup-open');
+    }
 
-        function closePopup() {
-            // Ferme le pop-up
-            document.getElementById("popup").style.display = "none";
-            document.body.classList.remove('popup-open');
-        }
+    function closePopup() {
+      document.getElementById("popup_general").style.display = "none";
+      document.body.classList.remove('popup-open');
+    }
 
-        // Ajout de l'événement de fermeture en cliquant en dehors du contenu
-        document.addEventListener('DOMContentLoaded', function () {
-            const popup = document.getElementById("popup");
-            popup.addEventListener('click', function (event) {
-                if (event.target === popup) {
-                    closePopup();
-                }
-            });
-        });
-    </script>
+    // Fermer le pop-up en cliquant en dehors du contenu
+    document.addEventListener('DOMContentLoaded', function () {
+      const popup = document.getElementById("popup_general");
+      popup.addEventListener('click', function (event) {
+        if (event.target === popup) {
+          closePopup();
+        }
+      });
+    });
+  </script>
 </body>
 </html>

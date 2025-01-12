@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="nav.css">
     <title>Navbar</title>
 </head>
+<?php include 'popup_eval.php'; ?>
+
 <body>
     <div class="navbar">
         <!-- Logo à gauche -->
@@ -42,7 +44,7 @@
     
         <!-- Bouton à droite -->
         <div class="navbar-right">
-            <a href="#Sévaleur" class="last-button">S'évaluer</a>
+            <a onclick="showPopup()" href="#Sévaleur" class="last-button">S'évaluer</a>
         </div>
     </div>
     
