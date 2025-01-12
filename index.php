@@ -9,7 +9,8 @@
 
 <?php include 'header.php'; ?>
 <?php include 'connaissance.php'; ?>
-
+<?php include 'popup_eval.php'; ?>
+    
 <body>
         <div id="apprendre">
             <div class="img">
