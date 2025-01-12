@@ -93,7 +93,7 @@
     <section id="result-section" class="hidden">
         <h2>Résultat Final</h2>
         <p id="result-text"></p>
-        <button><h3>Retour à l'accueil</h3></button>
+        <a href="index.php"><button><h3>Retour à l'accueil</h3></button></a>
     </section>
     </div>
 
