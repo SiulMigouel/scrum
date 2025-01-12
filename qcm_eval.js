@@ -11,11 +11,9 @@ function validateAnswer(questionNumber, correctAnswer) {
     if (parseInt(selected.value) === correctAnswer) {
         score++;
         indicator.classList.add("eval");
-        feedback.textContent = "Bonne réponse !";
         feedback.style.color = "grey";
     } else {
         indicator.classList.add("eval");
-        feedback.textContent = "Mauvaise réponse...";
         feedback.style.color = "grey";
     }
 

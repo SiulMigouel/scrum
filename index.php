@@ -8,6 +8,7 @@
 </head>
 
 <?php include 'header.html'; ?>
+<?php include 'connaissance.php'; ?>
 
 <body>
         <div id="apprendre">
@@ -37,9 +38,7 @@
                     <p>
                         Êtes-vous prêt à relever le défi ? Testez vos connaissances et découvrez jusqu’où vous pouvez aller ! Nos quiz et exercices interactifs vous permettront de mesurer vos compétences tout en vous amusant. Chaque test est une opportunité d’apprendre encore plus.
                     </p>
-                    <a href="">
-                        <button>Je veux tester mes connaissances</button>
-                    </a>
+                        <button onclick="showPopup()">Je veux tester mes connaissances</button>
                 </div>
             </div>
         </div>
