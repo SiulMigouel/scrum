@@ -29,7 +29,7 @@
             text-align: center;
         }
 
-        .close-button {
+        .popup_general .close-button {
             color: black;
             position: absolute;
             top: 10px;
@@ -38,7 +38,7 @@
             cursor: pointer;
         }
 
-        .start-button {
+        .popup_general .start-button {
             background-color: #4CAF50;
             color: white;
             padding: 10px 100px;

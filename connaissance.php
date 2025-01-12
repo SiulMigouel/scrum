@@ -10,7 +10,7 @@
 
   <!-- Pop-up -->
   <div id="popup_co" class="popup_co">
-    <div class="popup-content">
+    <div class="popupco-content">
       <span class="close-button" onclick="closePopupCo()">&times;</span>
       <h2>Liste des cours</h2>
       <ul class="course-list">

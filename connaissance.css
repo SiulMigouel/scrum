@@ -25,7 +25,7 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
   
-  .popup_co .popup-content {
+  .popup_co .popupco-content {
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
@@ -35,11 +35,11 @@
     margin: 10% auto;
   }
   
-  .popup_co .popup-content h2 {
+  .popup_co .popupco-content h2 {
     text-align: center;
   }
   
-  .close-button {
+  .popup_co .close-button {
     position: absolute;
     top: 10px;
     right: 20px;
@@ -48,7 +48,7 @@
     cursor: pointer;
   }
   
-  .close-button:hover {
+  .popup_co .close-button:hover {
     color: red;
   }
   
