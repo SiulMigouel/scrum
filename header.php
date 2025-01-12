@@ -10,7 +10,7 @@
     <title>Navbar</title>
 </head>
 <?php include 'popup_eval.php'; ?>
-
+<?php include 'connaissance.php'; ?>
 <body>
     <div class="navbar">
         <!-- Logo à gauche -->
