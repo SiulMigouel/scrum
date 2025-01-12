@@ -37,6 +37,10 @@ body {
     background-color: red;
 }
 
+.indicator.eval{
+    background-color: grey;
+}
+
 .question {
     text-align: center;
     width: 80%;

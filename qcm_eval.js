@@ -10,13 +10,13 @@ function validateAnswer(questionNumber, correctAnswer) {
 
     if (parseInt(selected.value) === correctAnswer) {
         score++;
-        indicator.classList.add("correct");
+        indicator.classList.add("eval");
         feedback.textContent = "Bonne réponse !";
-        feedback.style.color = "green";
+        feedback.style.color = "grey";
     } else {
-        indicator.classList.add("incorrect");
+        indicator.classList.add("eval");
         feedback.textContent = "Mauvaise réponse...";
-        feedback.style.color = "red";
+        feedback.style.color = "grey";
     }
 
     feedback.classList.remove("hidden");
@@ -62,9 +62,9 @@ function showResult() {
     if (selected) {
         if (parseInt(selected.value) === 1) {
             score++;
-            indicator.classList.add("correct");
+            indicator.classList.add("eval");
         } else {
-            indicator.classList.add("incorrect");
+            indicator.classList.add("eval");
         }
     }
 
