@@ -6,6 +6,44 @@
   <link rel="stylesheet" href="connaissance.css">
   <title>Liste des cours</title>
 </head>
+<style>
+   /* Pop-up */
+   .popup_co {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .popup_co .popupco-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 10% auto;
+  }
+  
+  .popup_co .popupco-content h2 {
+    text-align: center;
+  }
+  
+  .popup_co .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+</style>
+  
 <body>
 
   <!-- Pop-up -->
