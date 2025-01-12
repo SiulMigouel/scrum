@@ -345,3 +345,4 @@
     <script src="qcm_eval.js"></script>
 </body>
 </html>
+<?php include_once 'footer.html'; ?>
