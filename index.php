@@ -8,7 +8,7 @@
 </head>
 
 <?php include 'header.php'; ?>
-<?php include 'connaissance.php'; ?>
+
     
 <body>
         <div id="apprendre">
