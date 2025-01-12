@@ -71,9 +71,6 @@
                 <a href="#">Prêt pour le test final !!!</a>
             </div>
         </div>
-        <div class="lightbox" id="lightbox">
-        <img src="" alt="schéma méthode agile agrandi" class="lightbox-image">
-    </div>
     
 </section>
 
