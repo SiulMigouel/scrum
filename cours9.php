@@ -63,11 +63,14 @@
             <p>
                 Cycle en V et méthode agile : quelles différences ? | ITSS            </div>
         </div>
-        <div class="butons">
-                <a href="#">Prêt pour le test final !</a>
-            </div>
         </div>
     </div>
+    <div class="img">
+        <img src="./images/cours9.svg" alt="schéma méthode agile">
+              <div class="boutons">
+                <a href="#">Prêt pour le test final !!!</a>
+            </div>
+        </div>
     
 </section>
 
