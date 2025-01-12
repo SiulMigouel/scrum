@@ -59,7 +59,7 @@
         <li>
           <span class="course-title">Cours 1 : Les bases</span>
           <a href="#" class="test-link">Lancer le test</a>
-          <a href="#" class="course-link">Voir le cours associé</a>
+          <a href="cours1.php" class="course-link">Voir le cours associé</a>
         </li>
         <li>
           <span class="course-title">Méthode Agile</span>
