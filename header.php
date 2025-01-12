@@ -25,19 +25,25 @@
             <ul class="header-menu">
                 <li class="deroulant"><a href="#">Tous les cours</a>
                     <ul class="sous1">
-                        <li><a href="#">Cours HTML et CSS</a></li>
-                        <li><a href="#">Cours JavaScript</a></li>
-                        <li><a href="#">Cours PHP et MySQL</a></li>
+                        <li><a href="cours1.php">Introduction</a></li>
+                        <li><a href="cours2.php">Les rôles dans le projet</a></li>
+                        <li><a href="cours3.php">Les artefacts</a></li>
+                        <li><a href="cours5.php">Les évènements</a></li>
+                        <li><a href="cours6.php">La planification</a></li>
+                        <li><a href="cours7.php">Les bonnes pratiques</a></li>
+                        <li><a href="cours8.php">Incrémental VS Itératif</a></li>
+                        <li><a href="cours9.php">Qu'est-ce qu'une méthode agile</a></li>
                     </ul>
                 </li>
                 <li class="deroulant"><a href="#">Toutes les vidéos</a>
                     <ul class="sous2">
-                        <li><a href="#">CSS display</a></li>
-                        <li><a href="#">CSS position</a></li>
-                        <li><a href="#">CSS float</a></li>
+                        <li><a href="cours1.php">Méthode agile (1)</a></li>
+                        <li><a href="cours2.php">Les rôles durant le projet</a></li>
+                        <li><a href="cours3.php">Les artefacts</a></li>
+                        <li><a href="cours8.php">Méthode Incrémentale et Itérative</a></li>
                     </ul>
                 </li>
-                <li><a href="./cartemental.php">Carte mentale</a></li>
+                <li><a href="cours4.php">Carte mentale</a></li>
             </ul>
         </div>
     
