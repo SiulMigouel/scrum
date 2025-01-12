@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cours.css">
     <title>Document</title>
 
     <style>
@@ -29,6 +30,7 @@
 
         .download {
             margin-top: 20px;
+            margin-bottom: 20px;
         }
 
         .download a {
@@ -44,6 +46,14 @@
             background-color:rgb(15, 95, 82);
         }
 
+        .boutons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 80px; 
+}
     
 
     </style>
@@ -58,6 +68,10 @@
             <a href="./images/carte.svg" download="carte_mentale_methode_scrum.svg">Télécharger la carte</a>
         </div>
         </div>
+        <div class="boutons">
+                <a href="#">Me tester sur ce que je viens d'apprendre</a>
+                <a href="./cours5.php">Je continue le cours</a>
+            </div>
         
     </section>
 <?php include_once 'footer.html'; ?>
