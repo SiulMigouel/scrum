@@ -1,4 +1,4 @@
-<?php include_once("header.php"); ?>
+<?php include('./header.html'); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
