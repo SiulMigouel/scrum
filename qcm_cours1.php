@@ -67,7 +67,7 @@
         <p>Parmi les valeurs suivantes, laquelle n’est pas une des 5 valeurs de SCRUM ?</p>
         <form id="form-4">
             <label><input type="radio" name="q4" value="1" onclick="enableNext(4)">Collaboration</label><br>
-            <label><input type="radio" name="q4" value="1" onclick="enableNext(4)">Courage</label><br>
+            <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Courage</label><br>
             <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Engagement</label><br>
             <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Ouverture</label>
         </form>
@@ -80,7 +80,7 @@
         <p>Quel est l’objectif principal de la méthode SCRUM ?</p>
         <form id="form-5">
             <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">Créer de la valeur pour le client grâce à l’amélioration continue</label><br>
-            <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">Réduire les coûts de développement</label><br>
+            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Réduire les coûts de développement</label><br>
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Éviter les changements pendant le développement </label><br>
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Suivre un plan rigide pour assurer la livraison</label>
         </form>
