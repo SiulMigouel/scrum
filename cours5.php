@@ -70,13 +70,17 @@
             </div>
 
             <div class="img">
-            <img src="./images/methodo_scrum 1.png" alt="Méthodologie Scrum" />
-                <div class="boutons">
-                    <a href="./qcm_cours5">Me tester sur ce que je viens d'apprendre</a>
-                     <a href="./cours6.php">Je continue le cours</a>
-                </div>
+            <img src="./images/cours5.svg" alt="Méthodologie Scrum" class="clickable-image" />
+            <div class="boutons">
+                <a href="#">Me tester sur ce que je viens d'apprendre</a>
+                <a href="./cours6.php">Je continue le cours</a>
+            </div>
             </div>
         </div>
+
+        <div class="lightbox" id="lightbox">
+        <img src="" alt="schéma planification" class="lightbox-image">
+    </div>
 
     </section>
 
@@ -84,3 +88,21 @@
 </body>
 
 </html>
+
+<script>
+    // Récupération des éléments
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = lightbox.querySelector('img');
+    const clickableImage = document.querySelector('.clickable-image');
+
+    // Afficher la lightbox
+    clickableImage.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImage.src = clickableImage.src; // Utilise la même source que l'image cliquée
+    });
+
+    // Fermer la lightbox en cliquant dessus
+    lightbox.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+</script>
