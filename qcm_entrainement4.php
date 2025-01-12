@@ -98,10 +98,10 @@
         <h2>Question 6</h2>
         <p>Quelle pratique illustre l’approche Agile ?</p>
         <form id="form-6">
-            <label><input type="radio" name="q3" value="0" onclick="enableNext(6)">L’évitement des retours clients</label><br>
-            <label><input type="radio" name="q3" value="0" onclick="enableNext(6)">La livraison unique d’un produit complet</label><br>
-            <label><input type="radio" name="q3" value="0" onclick="enableNext(6)">Une hiérarchie stricte au sein des équipes</label><br>
-            <label><input type="radio" name="q3" value="1" onclick="enableNext(6)">Des livraisons fréquentes d’incréments fonctionnels</label>
+            <label><input type="radio" name="q6" value="0" onclick="enableNext(6)">L’évitement des retours clients</label><br>
+            <label><input type="radio" name="q6" value="0" onclick="enableNext(6)">La livraison unique d’un produit complet</label><br>
+            <label><input type="radio" name="q6" value="0" onclick="enableNext(6)">Une hiérarchie stricte au sein des équipes</label><br>
+            <label><input type="radio" name="q6" value="1" onclick="enableNext(6)">Des livraisons fréquentes d’incréments fonctionnels</label>
         </form>
         <button class="prev-button" onclick="goBack(5)">Précédent</button>
         <button id="next-6" class="next-button" disabled onclick="validateAnswer(6, 1)">Suivant</button>
@@ -111,10 +111,10 @@
         <h2>Question 7</h2>
         <p>En quoi la méthode itérative diffère-t-elle de la méthode incrémentale ?/p>
         <form id="form-7">
-            <label><input type="radio" name="q2" value="0" onclick="enableNext(7)">L’itératif ajoute de nouvelles fonctionnalités à chaque étape</label><br>
-            <label><input type="radio" name="q2" value="1" onclick="enableNext(7)">L’itératif se concentre sur l’amélioration progressive du produit</label><br>
-            <label><input type="radio" name="q2" value="0" onclick="enableNext(7)">L’itératif supprime les étapes de test</label><br>
-            <label><input type="radio" name="q2" value="0" onclick="enableNext(7)">L’itératif évite les révisions après chaque cycle</label>
+            <label><input type="radio" name="q7" value="0" onclick="enableNext(7)">L’itératif ajoute de nouvelles fonctionnalités à chaque étape</label><br>
+            <label><input type="radio" name="q7" value="1" onclick="enableNext(7)">L’itératif se concentre sur l’amélioration progressive du produit</label><br>
+            <label><input type="radio" name="q7" value="0" onclick="enableNext(7)">L’itératif supprime les étapes de test</label><br>
+            <label><input type="radio" name="q7" value="0" onclick="enableNext(7)">L’itératif évite les révisions après chaque cycle</label>
         </form>
         <button class="prev-button" onclick="goBack(6)">Précédent</button>
         <button id="next-7" class="next-button" disabled onclick="validateAnswer(7, 1)">Suivant</button>
@@ -124,10 +124,10 @@
         <h2>Question 8</h2>
         <p>Quelle valeur n’est pas mentionnée dans le Manifeste Agile ?</p>
         <form id="form-8">
-            <label><input type="radio" name="q5" value="0" onclick="enableNext(8)">La collaboration avec les clients</label><br>
-            <label><input type="radio" name="q5" value="1" onclick="enableNext(8)">La documentation détaillée et complète"</label><br>
-            <label><input type="radio" name="q5" value="0" onclick="enableNext(8)">L’adaptation au changement</label><br>
-            <label><input type="radio" name="q5" value="0" onclick="enableNext(8)">Les interactions entre individus</label>
+            <label><input type="radio" name="q8" value="0" onclick="enableNext(8)">La collaboration avec les clients</label><br>
+            <label><input type="radio" name="q8" value="1" onclick="enableNext(8)">La documentation détaillée et complète"</label><br>
+            <label><input type="radio" name="q8" value="0" onclick="enableNext(8)">L’adaptation au changement</label><br>
+            <label><input type="radio" name="q8" value="0" onclick="enableNext(8)">Les interactions entre individus</label>
         </form>
         <button class="prev-button" onclick="goBack(7)">Précédent</button>
         <button id="next-8" class="next-button" disabled onclick="validateAnswer(8, 1)">Suivant</button>
@@ -137,10 +137,10 @@
         <h2>Question 9</h2>
         <p>Pourquoi est-il essentiel d’impliquer tous les membres de l’équipe dans la communication ?</p>
         <form id="form-9">
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(9)">Pour accélérer la prise de décision</label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(9)">Pour garantir que chacun travaille sur une tâche distincte</label><br>
-            <label><input type="radio" name="q4" value="1" onclick="enableNext(9)">Pour encourager la collaboration et l’engagement</label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(9)">Pour éviter les doublons dans le Product Backlog</label>
+            <label><input type="radio" name="q9" value="0" onclick="enableNext(9)">Pour accélérer la prise de décision</label><br>
+            <label><input type="radio" name="q9" value="0" onclick="enableNext(9)">Pour garantir que chacun travaille sur une tâche distincte</label><br>
+            <label><input type="radio" name="q9" value="1" onclick="enableNext(9)">Pour encourager la collaboration et l’engagement</label><br>
+            <label><input type="radio" name="q9" value="0" onclick="enableNext(9)">Pour éviter les doublons dans le Product Backlog</label>
         </form>
         <button class="prev-button" onclick="goBack(8)">Précédent</button>
         <button id="next-9" class="next-button" disabled onclick="validateAnswer(9, 1)">Suivant</button>
@@ -153,10 +153,10 @@
         <h2>Question 10</h2>
         <p>Quel est l’avantage principal de la méthode incrémentale ?</p>
         <form id="form-10">
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(10)">La réduction des coûts liés au développement</label><br>
-            <label><input type="radio" name="q4" value="1" onclick="enableNext(10)">La livraison rapide de fonctionnalités utilisables</label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(10)">L’élimination des tests inutiles</label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(10)">Une meilleure planification à long terme</label>
+            <label><input type="radio" name="q10" value="0" onclick="enableNext(10)">La réduction des coûts liés au développement</label><br>
+            <label><input type="radio" name="q10" value="1" onclick="enableNext(10)">La livraison rapide de fonctionnalités utilisables</label><br>
+            <label><input type="radio" name="q10" value="0" onclick="enableNext(10)">L’élimination des tests inutiles</label><br>
+            <label><input type="radio" name="q10" value="0" onclick="enableNext(10)">Une meilleure planification à long terme</label>
         </form>
         <button class="prev-button" onclick="goBack(9)">Précédent</button>
         <button id="result-button" class="next-button" disabled onclick="showResult()">Résultat</button>
