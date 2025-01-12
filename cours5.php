@@ -72,7 +72,7 @@
             <div class="img">
             <img src="./images/cours5.svg" alt="Méthodologie Scrum" class="clickable-image" />
             <div class="boutons">
-                <a href="#">Me tester sur ce que je viens d'apprendre</a>
+                <a href="./qcm_cours5">Me tester sur ce que je viens d'apprendre</a>
                 <a href="./cours6.php">Je continue le cours</a>
             </div>
             </div>
