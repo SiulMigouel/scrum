@@ -44,7 +44,7 @@
               
                 <source src="./images/video1.mp4" type="video/mp4" />
               
-                Download the
+                Download
                 <a href="./images/video1.mp4">WEBM</a>
                 or
                 <a href="./images/video1.mp4">MP4</a>
