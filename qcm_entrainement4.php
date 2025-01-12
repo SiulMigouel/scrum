@@ -31,11 +31,11 @@
         <h2>Question 1</h2>
         <p>Comment la méthode agile se distingue-t-il de la méthode en cascade ?</p>
         <form id="form-1"> 
-        <label><input type="radio" name="q4" value="1" onclick="enableNext(4)">Agile implique des itérations fréquentes avec des livraisons régulières</label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Agile ne suit pas de plan préétabli
+        <label><input type="radio" name="q1" value="1" onclick="enableNext(1)">Agile implique des itérations fréquentes avec des livraisons régulières</label><br>
+            <label><input type="radio" name="q1" value="0" onclick="enableNext(1)">Agile ne suit pas de plan préétabli
             </label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Agile supprime le besoin de tests dans le processus</label><br>
-            <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Agile repose sur une hiérarchie stricte</label>
+            <label><input type="radio" name="q1" value="0" onclick="enableNext(1)">Agile supprime le besoin de tests dans le processus</label><br>
+            <label><input type="radio" name="q1" value="0" onclick="enableNext(1)">Agile repose sur une hiérarchie stricte</label>
          </form>
         <button class="prev-button hidden" onclick="goBack(1)">Précédent</button>
         <button id="next-1" class="next-button" disabled onclick="validateAnswer(1, 1)">Suivant</button>
@@ -59,10 +59,10 @@
         <h2>Question 3</h2>
         <p>Dans une méthode itérative, que fait l’équipe après chaque itération ?</p>
         <form id="form-3">
-            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Elle livre un produit finalisé au client</label><br>
-            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Elle ajoute des fonctionnalités sans révision"</label><br>
-            <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">Elle teste et améliore le produit en fonction des retours</label><br>
-            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Elle arrête le processus pour une phase de planification complète</label>
+            <label><input type="radio" name="q3" value="0" onclick="enableNext(3)">Elle livre un produit finalisé au client</label><br>
+            <label><input type="radio" name="q3" value="0" onclick="enableNext(3)">Elle ajoute des fonctionnalités sans révision"</label><br>
+            <label><input type="radio" name="q3" value="1" onclick="enableNext(3)">Elle teste et améliore le produit en fonction des retours</label><br>
+            <label><input type="radio" name="q3" value="0" onclick="enableNext(3)">Elle arrête le processus pour une phase de planification complète</label>
         </form>
         <button class="prev-button" onclick="goBack(2)">Précédent</button>
         <button id="next-3" class="next-button" disabled onclick="validateAnswer(3, 1)">Suivant</button>
@@ -72,10 +72,10 @@
         <h2>Question 4</h2>
         <p>La méthode SCRUM est :</p>
         <form id="form-4">
-        <label><input type="radio" name="q3" value="0" onclick="enableNext(3)">Itérative uniquement</label><br>
-            <label><input type="radio" name="q3" value="0" onclick="enableNext(3)">Incrémentale uniquement</label><br>
-            <label><input type="radio" name="q3" value="1" onclick="enableNext(3)">À la fois itérative et incrémentale</label><br>
-            <label><input type="radio" name="q3" value="0" onclick="enableNext(3)">Ni itérative ni incrémentale</label>
+        <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Itérative uniquement</label><br>
+            <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Incrémentale uniquement</label><br>
+            <label><input type="radio" name="q4" value="1" onclick="enableNext(4)">À la fois itérative et incrémentale</label><br>
+            <label><input type="radio" name="q4" value="0" onclick="enableNext(4)">Ni itérative ni incrémentale</label>
         </form>
         <button class="prev-button" onclick="goBack(3)">Précédent</button>
         <button id="next-4" class="next-button" disabled onclick="validateAnswer(4, 1)">Suivant</button>
@@ -85,10 +85,10 @@
         <h2>Question 5</h2>
         <p>Quelle est la principale caractéristique d’une méthode incrémentale ?</p>
         <form id="form-5">
-            <label><input type="radio" name="q1" value="0" onclick="enableNext(1)">Chaque incrément est une version révisée du produit complet</label><br>
-            <label><input type="radio" name="q1" value="0" onclick="enableNext(1)">Les incréments se concentrent sur la répétition du processus</label><br>
-            <label><input type="radio" name="q1" value="0" onclick="enableNext(1)">Les incréments remplacent les étapes de planification</label><br>
-            <label><input type="radio" name="q1" value="1" onclick="enableNext(1)">Chaque incrément est une partie fonctionnelle et utilisable du produit</label>
+            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Chaque incrément est une version révisée du produit complet</label><br>
+            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Les incréments se concentrent sur la répétition du processus</label><br>
+            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Les incréments remplacent les étapes de planification</label><br>
+            <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">Chaque incrément est une partie fonctionnelle et utilisable du produit</label>
         </form>
         <button class="prev-button" onclick="goBack(4)">Précédent</button>
         <button id="next-5" class="next-button" disabled onclick="validateAnswer(5, 1)">Suivant</button>
