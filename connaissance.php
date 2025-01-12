@@ -54,27 +54,27 @@
   <div id="popup_co" class="popup_co">
     <div class="popupco-content">
       <span class="close-button" onclick="closePopupCo()">&times;</span>
-      <h2>Liste des cours</h2>
+      <h2>Liste des entrainements</h2>
       <ul class="course-list">
         <li>
-          <span class="course-title">Cours 1 : Les bases</span>
-          <a href="#" class="test-link">Lancer le test</a>
+          <span class="course-title">Les bases</span>
+          <a href="qcm_entrainement1.php" class="test-link">Lancer le test</a>
           <a href="cours1.php" class="course-link">Voir le cours associé</a>
         </li>
         <li>
-          <span class="course-title">Méthode Agile</span>
-          <a href="#" class="test-link">Lancer le test</a>
-          <a href="#" class="course-link">Voir le cours associé</a>
+          <span class="course-title">Artefacts et Évènements</span>
+          <a href="qcm_entrainement2.php" class="test-link">Lancer le test</a>
+          <a href="cours3.php" class="course-link">Voir le cours associé</a>
         </li>
         <li>
-          <span class="course-title">zdnjerb,v,n qzbd,fea</span>
-          <a href="#" class="test-link">Lancer le test</a>
-          <a href="#" class="course-link">Voir le cours associé</a>
+          <span class="course-title">Planification & Bonnes pratiques</span>
+          <a href="qcm_entrainement3.php" class="test-link">Lancer le test</a>
+          <a href="cours5.php" class="course-link">Voir le cours associé</a>
         </li>
         <li>
-          <span class="course-title">zdnjerb,v,n qzbd,fea</span>
-          <a href="#" class="test-link">Lancer le test</a>
-          <a href="#" class="course-link">Voir le cours associé</a>
+          <span class="course-title">Conclusion</span>
+          <a href="qcm_entrainement4.php" class="test-link">Lancer le test</a>
+          <a href="cours7.php" class="course-link">Voir le cours associé</a>
         </li>
         <li>
           <span class="course-title">zdnjerb,v,n qzbd,fea</span>
