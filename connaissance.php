@@ -76,11 +76,6 @@
           <a href="qcm_entrainement4.php" class="test-link">Lancer le test</a>
           <a href="cours7.php" class="course-link">Voir le cours associé</a>
         </li>
-        <li>
-          <span class="course-title">zdnjerb,v,n qzbd,fea</span>
-          <a href="#" class="test-link">Lancer le test</a>
-          <a href="#" class="course-link">Voir le cours associé</a>
-        </li>
       </ul>
     </div>
   </div>
