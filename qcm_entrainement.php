@@ -6,7 +6,7 @@
     <title>QCM Interactif</title>
     <link rel="stylesheet" href="qcm.css">
 </head>
-<?php include 'header.html'; ?>
+<?php include 'header.php'; ?>
 <body>
     <div class='container'>
     <div class="progress-indicator">
@@ -170,3 +170,4 @@
     <script src="qcm_entrainement.js"></script>
 </body>
 </html>
+<?php include_once 'footer.html'; ?>
