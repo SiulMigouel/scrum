@@ -35,7 +35,7 @@
                 L’équipe doit toujours chercher à améliorer ses processus en se basant sur les retours obtenus lors des rétrospectives/ réunions.            </p>
             </div>
             <div class="boutons">
-                <a href="#">Me tester sur ce que je viens d'apprendre</a>
+                <a href="./qcm_cours7">Me tester sur ce que je viens d'apprendre</a>
                 <a href="./cours8.php">Je continue le cours</a>
             </div>
         </div>
