@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cours {
+    max-width: 1600px;
+    width: 100%;
+    padding: 20px;
+    margin: auto; /* Centrage horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /* Centrage vertical */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 250px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+}
+
+.txt h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.txt p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.txt .funfact {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.txt h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.lien {
+    position: relative;
+    color: red;
+    text-decoration: none; 
+    font-weight: 600;
+}
+
+/* Styles de la bulle */
+.lien::after {
+    content: "Renvoie vers le cours n°9";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0d5f5f;
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: opacity 0.3s ease; 
+}
+
+.lien.trois::after {
+    content: "Renvoie vers le cours n°8";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0d5f5f;
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: opacity 0.3s ease; 
+}
+
+
+/* Affiche la bulle au survol */
+.lien:hover::after {
+    opacity: 1;
+}
+
+
+.contenue {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img {
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img video {
+    width: 100%;
+    height: 100%;
+}
+
+.boutons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.boutons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #158875;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.boutons a:hover {
+    background-color: #0d5f5f;
+}
+
