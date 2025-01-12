@@ -98,7 +98,7 @@
         </div>
         <div class="image-section-container">
             <div class="image-section">
-                <img src="imgs/glescrum.png" alt="Description de l'image" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+                <img src="images/glescrum.png" alt="Description de l'image" style="max-width: 100%; max-height: 100%; object-fit: cover;">
             </div>
             <div class="button-container">
                 <button>Viens tester ce que tu viens d'apprendre !</button>
