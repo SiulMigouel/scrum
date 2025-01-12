@@ -37,7 +37,7 @@
                 </li>
                 <li class="deroulant"><a href="#">Toutes les vidéos</a>
                     <ul class="sous2">
-                        <li><a href="cours1.php">Méthode agile (1)</a></li>
+                        <li><a href="cours1.php">Méthode agile</a></li>
                         <li><a href="cours2.php">Les rôles durant le projet</a></li>
                         <li><a href="cours3.php">Les artefacts</a></li>
                         <li><a href="cours8.php">Méthode Incrémentale et Itérative</a></li>
