@@ -46,19 +46,19 @@
   <script>
     function showPopupCo() {
       document.getElementById("popup_co").style.display = "block";
-      document.body.classList.add('popup-open');
+      document.body.classList.add('popup_co-open');
     }
 
     function closePopupCo() {
       document.getElementById("popup_co").style.display = "none";
-      document.body.classList.remove('popup-open');
+      document.body.classList.remove('popup_co-open');
     }
 
     // Fermer le pop-up en cliquant en dehors du contenu
     document.addEventListener('DOMContentLoaded', function () {
       const popup = document.getElementById("popup_co");
       popup.addEventListener('click', function (event) {
-        if (event.target === popup) {
+        if (event.target === popup_co) {
           closePopupCo();
         }
       });
