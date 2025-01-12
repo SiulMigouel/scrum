@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.footer {
+    background-color: #20B2AA;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-gauche {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-family: Inter;
+}
+
+.footer-gauche a {
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.footer-gauche a:hover {
+    transform: scale(1.1);
+}
+
+.footer-centre {
+    text-align: center;
+    font-family: Inter;
+}
+
+.reseaux {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reseaux img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.reseaux img:hover {
+    transform: scale(1.1);
+}
+
+.footer-droit {
+    text-align: center;
+    font-family: Inter;
+}
+
+.map-image {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.adresse {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.scrum-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.reseaux-text {
+    padding-bottom: 30px;
+}
