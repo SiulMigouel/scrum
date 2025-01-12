@@ -19,11 +19,13 @@
                 <li>20 questions</li>
                 <li>Bonne chance !</li>
             </ul>
-            <button class="start-button">
-                <h3>
-                    S'évaluer
-                </h3>
-            </button>
+            <a href="qcm_eval.php">
+                <button class="start-button">
+                    <h3>
+                        S'évaluer
+                    </h3>
+                </button>
+            </a>
         </div>
     </div>
 
