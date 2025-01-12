@@ -33,7 +33,7 @@
         <span id="indicator-20" class="indicator"></span>
     </div>
 
-    <div id="feedback" class="hidden">Votre réponse est...</div>
+    <div id="feedback" class="hidden"></div>
 
     <!-- Questions 1 à 20 -->
     <!-- Copiez-collez le modèle ci-dessous pour les questions -->
