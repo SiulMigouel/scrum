@@ -81,7 +81,7 @@
         <form id="form-5">
             <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">La capacité de l’équipe à s’améliorer à chaque Sprint</label><br>
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">La supervision étroite par le Scrum Master"</label><br>
-            <label><input type="radio" name="q5" value="1" onclick="enableNext(5)">L’absence de réunions inutiles</label><br>
+            <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">L’absence de réunions inutiles</label><br>
             <label><input type="radio" name="q5" value="0" onclick="enableNext(5)">Le remplacement fréquent des membres de l’équipe</label>
         </form>
         <button class="prev-button" onclick="goBack(9)">Précédent</button>
