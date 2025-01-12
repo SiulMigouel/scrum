@@ -17,7 +17,7 @@
             </div>
             <div class="container">
                 <div class="contenue">
-                    <h2>Explorez, Apprenez et Progresser</h2>
+                    <h2>Explorez, Apprenez et Progressez</h2>
                     <p>
                         Découvrez une toute nouvelle manière d'apprendre grâce à nos ressources interactives. Avec un simple clic, accédez à des outils qui vous guideront pas à pas dans votre parcours d’apprentissage. Que vous soyez débutant ou passionné, développez vos compétences à votre rythme.
                     </p>
