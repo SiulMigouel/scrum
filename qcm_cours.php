@@ -99,3 +99,4 @@
     <script src="qcm_cours.js"></script>
 </body>
 </html>
+<?php include_once 'footer.html'; ?>
