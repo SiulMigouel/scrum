@@ -1,4 +1,4 @@
-<?php include_once("header.php"); ?>
+<?php include('./header.php'); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -66,11 +66,14 @@
         </div>
     </div>
     <div class="img">
-        <img src="./images/cours9.svg" alt="schéma méthode agile">
+        <img src="./images/cours9.svg" alt="schéma méthode agile" class="clickable-image">
               <div class="boutons">
                 <a href="#">Prêt pour le test final !!!</a>
             </div>
         </div>
+        <div class="lightbox" id="lightbox">
+        <img src="" alt="schéma méthode agile agrandi" class="lightbox-image">
+    </div>
     
 </section>
 
@@ -78,3 +81,22 @@
 
 </body>
 </html>
+
+<script>
+    // Récupération des éléments
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = lightbox.querySelector('img');
+    const clickableImage = document.querySelector('.clickable-image');
+
+    // Afficher la lightbox
+    clickableImage.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImage.src = clickableImage.src; // Utilise la même source que l'image cliquée
+    });
+
+    // Fermer la lightbox en cliquant dessus
+    lightbox.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+    });
+</script>
+
