@@ -41,6 +41,10 @@
     color: #333;
     cursor: pointer;
   }
+
+   .popup_co-open {
+    overflow: hidden;
+  }
   
 </style>
   
