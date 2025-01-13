@@ -323,7 +323,7 @@
     <!-------------------------------------------------------------------->
     <section id="question-20" class="question hidden">
         <h2>Question 20</h2>
-        <p>Quel aspect de la méthode Agile est mis en avant pour améliorer l’évolutivité du produit ?/p>
+        <p>Quel aspect de la méthode Agile est mis en avant pour améliorer l’évolutivité du produit ?</p>
         <form id="form-20">
             <label><input type="radio" name="q20" value="0" onclick="enableNext(20)"> La hiérarchie stricte au sein des équipes</label><br>
             <label><input type="radio" name="q20" value="1" onclick="enableNext(20)"> La réduction au minimum des éléments non ajoutant de valeur au produit</label><br>
