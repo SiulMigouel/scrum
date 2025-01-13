@@ -39,7 +39,7 @@
         </div>
 
         <div class="img">
-            <video>
+            <video controls>
                 <source src="./images/video1.mp4" type="video/webm" />
               
                 <source src="./images/video1.mp4" type="video/mp4" />
