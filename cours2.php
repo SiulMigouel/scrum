@@ -41,7 +41,7 @@
         </div>
 
         <div class="img">
-            <video controls autoplay>
+            <video controls>
                 <source src="./images/video2.mp4" type="video/webm" />
               
                 <source src="./images/video2.mp4" type="video/mp4" />
